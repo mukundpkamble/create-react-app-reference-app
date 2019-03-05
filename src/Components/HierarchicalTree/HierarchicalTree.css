@@ -1,0 +1,20 @@
+.hierarchical-tree {
+    text-align: left;
+    font-size: 20px;
+}
+
+.hierarchical-tree tree {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    min-width: 30px;
+}
+
+.hierarchical-tree .collapse {
+    overflow: hidden;
+    display: block;
+}
+
+.hierarchical-tree .collapse-active {
+    transition: height 0.3s ease-out;
+}

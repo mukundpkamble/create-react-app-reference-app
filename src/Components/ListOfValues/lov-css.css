@@ -1,0 +1,69 @@
+#lov-modal-id {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.lov-modal .modal-header, .modal-footer, .modal-contents {
+  align-items: center;
+  display: flex;
+  width:100%;
+}
+
+.lov-modal .lov-search-box, .lov-search-results, .lov-search-container {
+  width:100%;
+}
+
+.lov-modal .modal-header {
+  border-bottom: 1px solid #e5e5e5;
+  height: 10%;
+}
+
+.lov-modal .modal-content-body {
+  height: 90%;
+}
+
+.lov-modal .lov-search-container {
+  height: 85%;
+  padding: 5px;
+}
+
+.lov-modal .modal-footer {
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  height: 15%;
+}
+
+.lov-modal .lov-search-box {
+  height: 10%;
+}
+
+.lov-modal .lov-search-results {
+  overflow: auto;
+  height: 90%;
+}
+
+.lov-modal .modal-footer button {
+  margin: auto;
+  min-width: 80px;
+  width: max-content;
+}
+
+.lov-modal .lov-search-results table, th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.lov-modal .lov-search-results table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.lov-modal .selected-lov {
+  background-color: #eeeeee;
+}
+
+.lov-modal .non-selected-lov {
+  background-color: #ffffff
+}
+

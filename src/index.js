@@ -7,6 +7,8 @@ import { Provider } from 'react-redux'
 import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
+import ListOfValues from './Components/ListOfValues'
+import HierarchialTree from './Components/HierarchicalTree'
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
@@ -45,12 +47,20 @@ ReactDOM.render(
             <li>
               <Link to='/users/'>Users</Link>
             </li>
+            <li>
+              <Link to='/lov'>ListOfValues</Link>
+            </li>
+            <li>
+              <Link to='/tree'>Tree</Link>
+            </li>
           </ul>
         </nav>
 
         <Route path='/' exact component={Index} />
         <Route path='/about/' component={About} />
         <Route path='/users/' component={Users} />
+        <Route path='/lov' component={ListOfValues} />
+        <Route path='/tree' component={HierarchialTree} />
       </div>
     </Router>
   </Provider>,
